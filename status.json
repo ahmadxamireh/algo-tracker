@@ -65,8 +65,8 @@
       "title": "أساليب أخرى",
       "description": "أساليب إضافية في الإعراب.",
       "capabilities": [
-        { "id": "vocative", "title": "النداء", "status": "ready", "example": "يا محمد" },
-        { "id": "exception", "title": "الاستثناء", "status": "upcoming", "example": "إلا / غير / سوى / عدا" },
+        { "id": "vocative", "title": "النداء", "status": "ready" },
+        { "id": "exception", "title": "الاستثناء", "status": "upcoming" },
         { "id": "specification", "title": "التمييز", "status": "upcoming" },
         { "id": "circumstantial", "title": "الحال", "status": "upcoming" }
       ]

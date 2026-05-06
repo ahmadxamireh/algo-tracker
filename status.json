@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-06",
+  "features": [
+    {
+      "id": "nominal_sentence",
+      "title": "الجملة الاسمية",
+      "status": "ready",
+      "description": "يدعم إعراب مكونات الجملة الاسمية الأساسية.",
+      "capabilities": [
+        "مبتدأ",
+        "خبر",
+        "نعت",
+        "بدل",
+        "مضاف ومضاف إليه",
+        "مبتدأ مؤخر",
+        "خبر مقدم",
+        "جملة اسمية صغرى"
+      ]
+    },
+    {
+      "id": "verbal_sentence",
+      "title": "الجملة الفعلية",
+      "status": "ready",
+      "description": "يدعم إعراب مكونات الجملة الفعلية الأساسية.",
+      "capabilities": [
+        "فعل",
+        "فاعل",
+        "مفعول به",
+        "خبر جملة فعلية"
+      ]
+    },
+    {
+      "id": "nawasikh",
+      "title": "الناسخات",
+      "status": "ready",
+      "description": "يدعم بعض النواسخ المشهورة.",
+      "capabilities": [
+        "كان وأخواتها",
+        "إن وأخواتها"
+      ]
+    },
+    {
+      "id": "semi_sentence",
+      "title": "شبه الجملة",
+      "status": "ready",
+      "description": "يدعم الجار والمجرور والظروف في مواضع مختلفة.",
+      "capabilities": [
+        "جار ومجرور",
+        "ظرف زمان",
+        "ظرف مكان",
+        "متعلق بالفعل",
+        "واقع خبر"
+      ]
+    },
+    {
+      "id": "dependents",
+      "title": "التوابع",
+      "status": "ongoing",
+      "description": "الدعم موجود جزئياً وما زال قيد التحسين.",
+      "capabilities": [
+        "النعت",
+        "العطف",
+        "التوكيد",
+        "البدل في بعض المواضع"
+      ]
+    },
+    {
+      "id": "other_styles",
+      "title": "أساليب أخرى",
+      "status": "upcoming",
+      "description": "سيتم تحسين دعم هذه الأساليب في التحديث القادم.",
+      "capabilities": [
+        "النداء",
+        "الاستثناء",
+        "التمييز",
+        "الحال"
+      ]
+    }
+  ],
+  "statusDefinitions": [
+    {
+      "id": "ready",
+      "label": "جاهز",
+      "systemLabel": "Ready",
+      "priority": 1
+    },
+    {
+      "id": "upcoming",
+      "label": "قادم",
+      "systemLabel": "Upcoming",
+      "priority": 2
+    },
+    {
+      "id": "ongoing",
+      "label": "قيد التطوير",
+      "systemLabel": "Ongoing",
+      "priority": 3
+    },
+    {
+      "id": "unavailable",
+      "label": "غير متاح",
+      "systemLabel": "Unavailable",
+      "priority": 4
+    }
+  ]
+}

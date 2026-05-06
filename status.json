@@ -102,7 +102,7 @@
   ],
   "statusDefinitions": [
     { "id": "ready", "label": "جاهز", "systemLabel": "Ready", "priority": 1 },
-    { "id": "upcoming", "label": "قادم", "systemLabel": "Upcoming", "priority": 2 },
+    { "id": "upcoming", "label": "التحديث القادم", "systemLabel": "Upcoming", "priority": 2 },
     { "id": "ongoing", "label": "قيد التطوير", "systemLabel": "Ongoing", "priority": 3 },
     { "id": "unavailable", "label": "غير متاح", "systemLabel": "Unavailable", "priority": 4 }
   ]

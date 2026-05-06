@@ -1,107 +1,81 @@
 {
   "schemaVersion": 1,
   "lastUpdated": "2026-05-06",
-  "features": [
+  "categories": [
     {
       "id": "nominal_sentence",
       "title": "الجملة الاسمية",
-      "status": "ready",
-      "description": "يدعم إعراب مكونات الجملة الاسمية الأساسية.",
+      "description": "إعراب مكونات الجملة الاسمية.",
       "capabilities": [
-        "مبتدأ",
-        "خبر",
-        "نعت",
-        "بدل",
-        "مضاف ومضاف إليه",
-        "مبتدأ مؤخر",
-        "خبر مقدم",
-        "جملة اسمية صغرى"
+        { "id": "subject", "title": "مبتدأ", "status": "ready" },
+        { "id": "predicate", "title": "خبر", "status": "ready" },
+        { "id": "adjective", "title": "نعت", "status": "ready" },
+        { "id": "apposition", "title": "بدل", "status": "ready" },
+        { "id": "genitive_construct", "title": "مضاف ومضاف إليه", "status": "ready" },
+        { "id": "delayed_subject", "title": "مبتدأ مؤخر", "status": "ready" },
+        { "id": "advanced_predicate", "title": "خبر مقدم", "status": "ready" },
+        { "id": "minor_nominal_sentence", "title": "جملة اسمية صغرى", "status": "ready" }
       ]
     },
     {
       "id": "verbal_sentence",
       "title": "الجملة الفعلية",
-      "status": "ready",
-      "description": "يدعم إعراب مكونات الجملة الفعلية الأساسية.",
+      "description": "إعراب مكونات الجملة الفعلية.",
       "capabilities": [
-        "فعل",
-        "فاعل",
-        "مفعول به",
-        "خبر جملة فعلية"
+        { "id": "verb", "title": "فعل", "status": "ready" },
+        { "id": "subject_doer", "title": "فاعل", "status": "ready" },
+        { "id": "object", "title": "مفعول به", "status": "ready" },
+        { "id": "verbal_sentence_predicate", "title": "خبر جملة فعلية", "status": "ready" }
       ]
     },
     {
       "id": "nawasikh",
       "title": "الناسخات",
-      "status": "ready",
-      "description": "يدعم بعض النواسخ المشهورة.",
+      "description": "دعم النواسخ المشهورة.",
       "capabilities": [
-        "كان وأخواتها",
-        "إن وأخواتها"
+        { "id": "kana_sisters", "title": "كان وأخواتها", "status": "ready" },
+        { "id": "inna_sisters", "title": "إن وأخواتها", "status": "ready" }
       ]
     },
     {
       "id": "semi_sentence",
       "title": "شبه الجملة",
-      "status": "ready",
-      "description": "يدعم الجار والمجرور والظروف في مواضع مختلفة.",
+      "description": "الجار والمجرور والظروف في مواضع مختلفة.",
       "capabilities": [
-        "جار ومجرور",
-        "ظرف زمان",
-        "ظرف مكان",
-        "متعلق بالفعل",
-        "واقع خبر"
+        { "id": "prepositional_phrase", "title": "جار ومجرور", "status": "ready" },
+        { "id": "time_adverb", "title": "ظرف زمان", "status": "ready" },
+        { "id": "place_adverb", "title": "ظرف مكان", "status": "ready" },
+        { "id": "attached_to_verb", "title": "متعلق بالفعل", "status": "ready" },
+        { "id": "predicate_phrase", "title": "واقع خبر", "status": "ready" }
       ]
     },
     {
       "id": "dependents",
       "title": "التوابع",
-      "status": "ongoing",
-      "description": "الدعم موجود جزئياً وما زال قيد التحسين.",
+      "description": "دعم التوابع بشكل تدريجي.",
       "capabilities": [
-        "النعت",
-        "العطف",
-        "التوكيد",
-        "البدل في بعض المواضع"
+        { "id": "dependent_adjective", "title": "النعت", "status": "ready" },
+        { "id": "conjunction", "title": "العطف", "status": "ongoing" },
+        { "id": "emphasis", "title": "التوكيد", "status": "ongoing" },
+        { "id": "dependent_apposition", "title": "البدل في بعض المواضع", "status": "ongoing" }
       ]
     },
     {
       "id": "other_styles",
       "title": "أساليب أخرى",
-      "status": "upcoming",
-      "description": "سيتم تحسين دعم هذه الأساليب في التحديث القادم.",
+      "description": "أساليب إضافية في الإعراب.",
       "capabilities": [
-        "النداء",
-        "الاستثناء",
-        "التمييز",
-        "الحال"
+        { "id": "vocative", "title": "النداء", "status": "ready", "example": "يا محمد" },
+        { "id": "exception", "title": "الاستثناء", "status": "upcoming", "example": "إلا / غير / سوى / عدا" },
+        { "id": "specification", "title": "التمييز", "status": "upcoming" },
+        { "id": "circumstantial", "title": "الحال", "status": "upcoming" }
       ]
     }
   ],
   "statusDefinitions": [
-    {
-      "id": "ready",
-      "label": "جاهز",
-      "systemLabel": "Ready",
-      "priority": 1
-    },
-    {
-      "id": "upcoming",
-      "label": "قادم",
-      "systemLabel": "Upcoming",
-      "priority": 2
-    },
-    {
-      "id": "ongoing",
-      "label": "قيد التطوير",
-      "systemLabel": "Ongoing",
-      "priority": 3
-    },
-    {
-      "id": "unavailable",
-      "label": "غير متاح",
-      "systemLabel": "Unavailable",
-      "priority": 4
-    }
+    { "id": "ready", "label": "جاهز", "systemLabel": "Ready", "priority": 1 },
+    { "id": "upcoming", "label": "قادم", "systemLabel": "Upcoming", "priority": 2 },
+    { "id": "ongoing", "label": "قيد التطوير", "systemLabel": "Ongoing", "priority": 3 },
+    { "id": "unavailable", "label": "غير متاح", "systemLabel": "Unavailable", "priority": 4 }
   ]
 }

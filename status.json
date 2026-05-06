@@ -5,70 +5,98 @@
     {
       "id": "nominal_sentence",
       "title": "الجملة الاسمية",
-      "description": "إعراب مكونات الجملة الاسمية.",
+      "description": "دعم قوي للجملة الاسمية في الأنماط التعليمية الشائعة.",
       "capabilities": [
         { "id": "subject", "title": "مبتدأ", "status": "ready" },
         { "id": "predicate", "title": "خبر", "status": "ready" },
-        { "id": "adjective", "title": "نعت", "status": "ready" },
-        { "id": "apposition", "title": "بدل", "status": "ready" },
-        { "id": "genitive_construct", "title": "مضاف ومضاف إليه", "status": "ready" },
-        { "id": "delayed_subject", "title": "مبتدأ مؤخر", "status": "ready" },
+        { "id": "second_subject", "title": "مبتدأ ثانٍ", "status": "ready" },
+        { "id": "verbal_predicate", "title": "خبر جملة فعلية", "status": "ready" },
         { "id": "advanced_predicate", "title": "خبر مقدم", "status": "ready" },
-        { "id": "minor_nominal_sentence", "title": "جملة اسمية صغرى", "status": "ready" }
+        { "id": "delayed_subject", "title": "مبتدأ مؤخر", "status": "ready" },
+        { "id": "minor_nominal_sentence", "title": "جملة اسمية صغرى", "status": "ready" },
+        { "id": "demonstrative_subject", "title": "اسم الإشارة مبتدأ", "status": "ready" },
+        { "id": "pronoun_subject", "title": "الضمير المنفصل مبتدأ", "status": "ready" },
+        { "id": "adjective", "title": "نعت داخل الجملة الاسمية", "status": "ready" },
+        { "id": "apposition", "title": "بدل في مواضع محددة", "status": "ongoing" },
+        { "id": "genitive_construct", "title": "مضاف ومضاف إليه", "status": "ready" },
+        { "id": "idafa_chains", "title": "سلاسل الإضافة", "status": "ready" },
+        { "id": "multiple_adjectives", "title": "تعدد النعوت", "status": "ongoing" }
       ]
     },
     {
       "id": "verbal_sentence",
       "title": "الجملة الفعلية",
-      "description": "إعراب مكونات الجملة الفعلية.",
+      "description": "دعم جيد للجملة الفعلية البسيطة في الأنماط التعليمية المباشرة.",
       "capabilities": [
         { "id": "verb", "title": "فعل", "status": "ready" },
         { "id": "subject_doer", "title": "فاعل", "status": "ready" },
         { "id": "object", "title": "مفعول به", "status": "ready" },
-        { "id": "verbal_sentence_predicate", "title": "خبر جملة فعلية", "status": "ready" }
+        { "id": "detached_object_pronoun", "title": "ضمير منفصل في موقع المفعول به", "status": "ready" },
+        { "id": "attached_subject_forms", "title": "ألف الاثنين وواو الجماعة في الفعل", "status": "ready" },
+        { "id": "simple_verbal_clauses", "title": "الجمل الفعلية البسيطة", "status": "ready" },
+        { "id": "complex_subordinate_clauses", "title": "الجمل التابعة والموصولية المعقدة", "status": "upcoming" }
       ]
     },
     {
       "id": "nawasikh",
       "title": "الناسخات",
-      "description": "دعم النواسخ المشهورة.",
+      "description": "دعم متفاوت للناسخات؛ كان أقوى من إن في الوضع الحالي.",
       "capabilities": [
         { "id": "kana_sisters", "title": "كان وأخواتها", "status": "ready" },
-        { "id": "inna_sisters", "title": "إن وأخواتها", "status": "ready" }
+        { "id": "kana_subject", "title": "اسم كان وأخواتها", "status": "ready" },
+        { "id": "kana_predicate", "title": "خبر كان وأخواتها", "status": "ready" },
+        { "id": "inna_core", "title": "إن وبعض أخواتها", "status": "ongoing" },
+        { "id": "inna_subject", "title": "اسم إن وأخواتها", "status": "ongoing" },
+        { "id": "inna_predicate", "title": "خبر إن وأخواتها", "status": "ongoing" },
+        { "id": "inna_extended", "title": "لعل وكأن وليت وسائر الحالات الأضعف", "status": "ongoing" }
       ]
     },
     {
       "id": "semi_sentence",
       "title": "شبه الجملة",
-      "description": "الجار والمجرور والظروف في مواضع مختلفة.",
+      "description": "دعم قوي للجار والمجرور والظروف في الاستعمالات التعليمية الشائعة.",
       "capabilities": [
         { "id": "prepositional_phrase", "title": "جار ومجرور", "status": "ready" },
+        { "id": "attached_preposition_forms", "title": "حرف جر + اسم مجرور في كلمة واحدة", "status": "ready" },
         { "id": "time_adverb", "title": "ظرف زمان", "status": "ready" },
         { "id": "place_adverb", "title": "ظرف مكان", "status": "ready" },
-        { "id": "attached_to_verb", "title": "متعلق بالفعل", "status": "ready" },
-        { "id": "predicate_phrase", "title": "واقع خبر", "status": "ready" }
+        { "id": "attached_locative_pronoun", "title": "ظرف + ضمير", "status": "ready" },
+        { "id": "predicate_phrase", "title": "شبه الجملة الواقعة خبرًا", "status": "ready" },
+        { "id": "fronted_phrase", "title": "شبه الجملة خبرًا مقدمًا", "status": "ready" }
       ]
     },
     {
       "id": "dependents",
       "title": "التوابع",
-      "description": "دعم التوابع بشكل تدريجي.",
+      "description": "التوابع مدعومة بدرجات مختلفة حسب الباب والسياق.",
       "capabilities": [
         { "id": "dependent_adjective", "title": "النعت", "status": "ready" },
-        { "id": "conjunction", "title": "العطف", "status": "ongoing" },
-        { "id": "emphasis", "title": "التوكيد", "status": "ongoing" },
-        { "id": "dependent_apposition", "title": "البدل في بعض المواضع", "status": "ongoing" }
+        { "id": "conjunction", "title": "العطف في الصور البسيطة", "status": "ready" },
+        { "id": "emphasis", "title": "التوكيد في الصور التعليمية الشائعة", "status": "ongoing" },
+        { "id": "dependent_apposition", "title": "البدل", "status": "ongoing" },
+        { "id": "multiple_dependents", "title": "تعدد التوابع في الجملة الواحدة", "status": "ongoing" }
       ]
     },
     {
       "id": "other_styles",
       "title": "أساليب أخرى",
-      "description": "أساليب إضافية في الإعراب.",
+      "description": "أساليب إضافية موجودة لكن بدرجات نضج مختلفة.",
       "capabilities": [
+        { "id": "vocative_particle", "title": "أداة النداء", "status": "ready" },
         { "id": "vocative", "title": "النداء", "status": "ready" },
-        { "id": "exception", "title": "الاستثناء", "status": "upcoming" },
-        { "id": "specification", "title": "التمييز", "status": "upcoming" },
-        { "id": "circumstantial", "title": "الحال", "status": "upcoming" }
+        { "id": "exception_particle", "title": "أداة الاستثناء", "status": "ongoing" },
+        { "id": "exception", "title": "الاستثناء", "status": "ongoing" },
+        { "id": "specification", "title": "التمييز", "status": "ongoing" },
+        { "id": "circumstantial", "title": "الحال", "status": "ready" }
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "حدود معروفة",
+      "description": "ما زال التحليل فيها غير مكتمل أو يحتاج توسيعًا لاحقًا.",
+      "capabilities": [
+        { "id": "relative_and_subordinate_clauses", "title": "الجمل الموصولية والفعلية التابعة المعقدة", "status": "upcoming" },
+        { "id": "low_confidence_fallback", "title": "الكلمات أو التراكيب الخارجة عن القواعد التعليمية الحالية", "status": "unavailable" }
       ]
     }
   ],

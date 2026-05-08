@@ -14,8 +14,25 @@
         { "id": "advanced_predicate", "title": "خبر مقدم", "status": "ready" },
         { "id": "delayed_subject", "title": "مبتدأ مؤخر", "status": "ready" },
         { "id": "minor_nominal_sentence", "title": "جملة اسمية صغرى", "status": "ready" },
-        { "id": "detached_pronoun_subject", "title": "الضمير المنفصل مبتدأ", "status": "ready" },
         { "id": "relative_pronoun", "title": "اسم موصول", "status": "ongoing" }
+      ]
+    },
+    {
+      "id": "detached_pronouns",
+      "title": "الضمائر المنفصلة",
+      "description": "دعم واسع للضمائر المنفصلة في مواقع الرفع والنصب ومع الخبر وشبه الجملة.",
+      "capabilities": [
+        { "id": "detached_nominative_forms", "title": "ضمائر الرفع المنفصلة", "status": "ready" },
+        { "id": "detached_pronoun_subject", "title": "الضمير المنفصل مبتدأ", "status": "ready" },
+        { "id": "detached_pronoun_nominal_predicate", "title": "الضمير المنفصل خبر المبتدأ", "status": "ready" },
+        { "id": "detached_pronoun_with_noun_predicate", "title": "ضمير منفصل مع خبر مفرد", "status": "ready" },
+        { "id": "detached_pronoun_with_prepositional_predicate", "title": "ضمير منفصل مع جار ومجرور خبرًا", "status": "ready" },
+        { "id": "detached_pronoun_with_adverbial_predicate", "title": "ضمير منفصل مع ظرف خبرًا", "status": "ready" },
+        { "id": "separating_pronoun", "title": "ضمير الفصل", "status": "ready" },
+        { "id": "detached_pronoun_verbal_emphasis", "title": "توكيد لفظي بتكرار الضمير", "status": "ready" },
+        { "id": "detached_accusative_forms", "title": "ضمائر النصب المنفصلة", "status": "ready" },
+        { "id": "fronted_detached_object", "title": "مفعول به مقدم بضمير منفصل", "status": "ready" },
+        { "id": "first_second_third_person_forms", "title": "ضمائر المتكلم والمخاطب والغائب", "status": "ready" }
       ]
     },
     {
@@ -50,6 +67,7 @@
         { "id": "hidden_subject", "title": "الفاعل الضمير المستتر في بعض المواضع", "status": "ready" },
         { "id": "object", "title": "مفعول به", "status": "ready" },
         { "id": "detached_object_pronoun", "title": "ضمير منفصل في موقع المفعول به", "status": "ready" },
+        { "id": "fronted_detached_object_pronoun", "title": "ضمير نصب منفصل مفعول به مقدم", "status": "ready" },
         { "id": "simple_verbal_clauses", "title": "الجمل الفعلية البسيطة", "status": "ready" },
         { "id": "complex_subordinate_clauses", "title": "الجمل التابعة والفعلية المعقدة", "status": "upcoming" }
       ]
@@ -112,6 +130,7 @@
       "capabilities": [
         { "id": "kana_sisters", "title": "كان وأخواتها", "status": "ready" },
         { "id": "kana_subject", "title": "اسم كان وأخواتها", "status": "ready" },
+        { "id": "kana_detached_pronoun_subject", "title": "اسم كان ضميرًا منفصلًا", "status": "ready" },
         { "id": "kana_predicate", "title": "خبر كان وأخواتها", "status": "ready" },
         { "id": "inna_sisters", "title": "إن وأخواتها", "status": "ongoing" },
         { "id": "inna_subject", "title": "اسم إن وأخواتها", "status": "ongoing" },
@@ -128,6 +147,8 @@
         { "id": "coordination", "title": "المعطوف في الصور البسيطة", "status": "ready" },
         { "id": "coordinated_case_matching", "title": "مطابقة المعطوف للمعطوف عليه في الإعراب", "status": "ready" },
         { "id": "demonstrative_apposition", "title": "بدل اسم الإشارة", "status": "ready" },
+        { "id": "separating_pronoun", "title": "ضمير الفصل", "status": "ready" },
+        { "id": "detached_pronoun_emphasis", "title": "توكيد لفظي بتكرار الضمير", "status": "ready" },
         { "id": "lexical_emphasis", "title": "التوكيد اللفظي والمعنوي في الصور الشائعة", "status": "ongoing" },
         { "id": "verbal_emphasis", "title": "التوكيد بالفعل أو المصدر في بعض المواضع", "status": "ongoing" },
         { "id": "general_apposition", "title": "البدل غير المرتبط باسم الإشارة", "status": "ongoing" },
@@ -170,7 +191,9 @@
         { "id": "oath_style", "title": "أسلوب القسم", "status": "unavailable" },
         { "id": "exclamation_style", "title": "أسلوب التعجب", "status": "unavailable" },
         { "id": "passive_voice", "title": "نائب الفاعل والمبني للمجهول", "status": "unavailable" },
-        { "id": "numbers_and_counted", "title": "العدد والمعدود تفصيليًا", "status": "unavailable" }
+        { "id": "numbers_and_counted", "title": "العدد والمعدود تفصيليًا", "status": "unavailable" },
+        { "id": "attached_object_pronouns", "title": "ضمائر النصب المتصلة بالفعل تفصيليًا", "status": "unavailable" },
+        { "id": "pronoun_reference_resolution", "title": "تحديد مرجع الضمير سياقيًا", "status": "unavailable" }
       ]
     }
   ],

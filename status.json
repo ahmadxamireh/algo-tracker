@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-06",
+  "lastUpdated": "2026-05-08",
   "categories": [
     {
       "id": "nominal_sentence",
@@ -15,66 +15,99 @@
         { "id": "delayed_subject", "title": "مبتدأ مؤخر", "status": "ready" },
         { "id": "minor_nominal_sentence", "title": "جملة اسمية صغرى", "status": "ready" },
         { "id": "demonstrative_subject", "title": "اسم الإشارة مبتدأ", "status": "ready" },
-        { "id": "pronoun_subject", "title": "الضمير المنفصل مبتدأ", "status": "ready" },
-        { "id": "adjective", "title": "نعت داخل الجملة الاسمية", "status": "ready" },
-        { "id": "apposition", "title": "بدل في مواضع محددة", "status": "ongoing" },
-        { "id": "genitive_construct", "title": "مضاف ومضاف إليه", "status": "ready" },
-        { "id": "idafa_chains", "title": "سلاسل الإضافة", "status": "ready" },
-        { "id": "multiple_adjectives", "title": "تعدد النعوت", "status": "ongoing" }
+        { "id": "detached_pronoun_subject", "title": "الضمير المنفصل مبتدأ", "status": "ready" },
+        { "id": "relative_pronoun", "title": "اسم موصول", "status": "ongoing" }
       ]
     },
     {
       "id": "verbal_sentence",
       "title": "الجملة الفعلية",
-      "description": "دعم جيد للجملة الفعلية البسيطة في الأنماط التعليمية المباشرة.",
+      "description": "دعم جيد للجملة الفعلية البسيطة وربط الفعل بفاعله ومفعوله.",
       "capabilities": [
         { "id": "verb", "title": "فعل", "status": "ready" },
+        { "id": "past_verb_forms", "title": "الفعل الماضي وصيغ اتصاله الشائعة", "status": "ready" },
         { "id": "subject_doer", "title": "فاعل", "status": "ready" },
+        { "id": "attached_subject_forms", "title": "تاء الفاعل وألف الاثنين وواو الجماعة", "status": "ready" },
+        { "id": "hidden_subject", "title": "الفاعل الضمير المستتر في بعض المواضع", "status": "ready" },
         { "id": "object", "title": "مفعول به", "status": "ready" },
         { "id": "detached_object_pronoun", "title": "ضمير منفصل في موقع المفعول به", "status": "ready" },
-        { "id": "attached_subject_forms", "title": "ألف الاثنين وواو الجماعة في الفعل", "status": "ready" },
         { "id": "simple_verbal_clauses", "title": "الجمل الفعلية البسيطة", "status": "ready" },
-        { "id": "complex_subordinate_clauses", "title": "الجمل التابعة والموصولية المعقدة", "status": "upcoming" }
+        { "id": "complex_subordinate_clauses", "title": "الجمل التابعة والفعلية المعقدة", "status": "upcoming" }
+      ]
+    },
+    {
+      "id": "idafa",
+      "title": "الإضافة",
+      "description": "دعم المضاف والمضاف إليه في التراكيب الاسمية الشائعة.",
+      "capabilities": [
+        { "id": "genitive_construct", "title": "مضاف ومضاف إليه", "status": "ready" },
+        { "id": "mudaf_ilayh", "title": "مضاف إليه مجرور", "status": "ready" },
+        { "id": "idafa_chains", "title": "سلاسل الإضافة", "status": "ready" },
+        { "id": "five_nouns_idafa", "title": "الأسماء الخمسة في الإضافة", "status": "ready" },
+        { "id": "attached_pronoun_idafa", "title": "الإضافة إلى ضمير متصل", "status": "ready" }
+      ]
+    },
+    {
+      "id": "na3t",
+      "title": "النعت",
+      "description": "دعم واسع للنعت في الرفع والجر وتعدد النعوت.",
+      "capabilities": [
+        { "id": "basic_adjective", "title": "نعت مفرد", "status": "ready" },
+        { "id": "nominative_adjective", "title": "نعت مرفوع", "status": "ready" },
+        { "id": "genitive_adjective", "title": "نعت مجرور", "status": "ready" },
+        { "id": "dual_adjective", "title": "نعت المثنى", "status": "ready" },
+        { "id": "sound_masculine_plural_adjective", "title": "نعت جمع المذكر السالم", "status": "ready" },
+        { "id": "sound_feminine_plural_adjective", "title": "نعت جمع المؤنث السالم", "status": "ready" },
+        { "id": "adjective_after_idafa", "title": "النعت بعد المضاف إليه", "status": "ready" },
+        { "id": "multiple_adjectives", "title": "تعدد النعوت", "status": "ready" }
+      ]
+    },
+    {
+      "id": "semi_sentence",
+      "title": "شبه الجملة",
+      "description": "دعم قوي للجار والمجرور والظروف في مواضع الخبر والتعلق بالفعل.",
+      "capabilities": [
+        { "id": "prepositional_phrase", "title": "جار ومجرور", "status": "ready" },
+        { "id": "attached_preposition_noun", "title": "حرف جر + اسم مجرور في كلمة واحدة", "status": "ready" },
+        { "id": "attached_preposition_pronoun", "title": "حرف جر + ضمير", "status": "ready" },
+        { "id": "attached_to_verb", "title": "شبه الجملة متعلق بالفعل", "status": "ready" },
+        { "id": "predicate_phrase", "title": "شبه الجملة في محل رفع خبر", "status": "ready" },
+        { "id": "fronted_phrase", "title": "شبه الجملة خبر مقدم", "status": "ready" },
+        { "id": "time_adverb", "title": "ظرف زمان", "status": "ready" },
+        { "id": "place_adverb", "title": "ظرف مكان", "status": "ready" },
+        { "id": "adverbial_predicate", "title": "الظرف الواقع خبرًا", "status": "ready" },
+        { "id": "fronted_adverbial_predicate", "title": "الظرف خبرًا مقدمًا", "status": "ready" },
+        { "id": "attached_locative_pronoun", "title": "ظرف + ضمير", "status": "ready" },
+        { "id": "adverb_complement", "title": "مضاف إليه بعد الظرف", "status": "ready" }
       ]
     },
     {
       "id": "nawasikh",
       "title": "الناسخات",
-      "description": "دعم متفاوت للناسخات؛ كان أقوى من إن في الوضع الحالي.",
+      "description": "دعم متفاوت للناسخات؛ كان وأخواتها أكثر نضجًا من إن وأخواتها.",
       "capabilities": [
         { "id": "kana_sisters", "title": "كان وأخواتها", "status": "ready" },
         { "id": "kana_subject", "title": "اسم كان وأخواتها", "status": "ready" },
         { "id": "kana_predicate", "title": "خبر كان وأخواتها", "status": "ready" },
-        { "id": "inna_core", "title": "إن وبعض أخواتها", "status": "ongoing" },
+        { "id": "inna_sisters", "title": "إن وأخواتها", "status": "ongoing" },
         { "id": "inna_subject", "title": "اسم إن وأخواتها", "status": "ongoing" },
         { "id": "inna_predicate", "title": "خبر إن وأخواتها", "status": "ongoing" },
         { "id": "inna_extended", "title": "لعل وكأن وليت وسائر الحالات الأضعف", "status": "ongoing" }
       ]
     },
     {
-      "id": "semi_sentence",
-      "title": "شبه الجملة",
-      "description": "دعم قوي للجار والمجرور والظروف في الاستعمالات التعليمية الشائعة.",
-      "capabilities": [
-        { "id": "prepositional_phrase", "title": "جار ومجرور", "status": "ready" },
-        { "id": "attached_preposition_forms", "title": "حرف جر + اسم مجرور في كلمة واحدة", "status": "ready" },
-        { "id": "time_adverb", "title": "ظرف زمان", "status": "ready" },
-        { "id": "place_adverb", "title": "ظرف مكان", "status": "ready" },
-        { "id": "attached_locative_pronoun", "title": "ظرف + ضمير", "status": "ready" },
-        { "id": "predicate_phrase", "title": "شبه الجملة الواقعة خبرًا", "status": "ready" },
-        { "id": "fronted_phrase", "title": "شبه الجملة خبرًا مقدمًا", "status": "ready" }
-      ]
-    },
-    {
       "id": "dependents",
       "title": "التوابع",
-      "description": "التوابع مدعومة بدرجات مختلفة حسب الباب والسياق.",
+      "description": "التوابع مدعومة بدرجات مختلفة حسب نوع التابع والسياق.",
       "capabilities": [
-        { "id": "dependent_adjective", "title": "النعت", "status": "ready" },
-        { "id": "conjunction", "title": "العطف في الصور البسيطة", "status": "ready" },
-        { "id": "emphasis", "title": "التوكيد في الصور التعليمية الشائعة", "status": "ongoing" },
-        { "id": "dependent_apposition", "title": "البدل", "status": "ongoing" },
-        { "id": "multiple_dependents", "title": "تعدد التوابع في الجملة الواحدة", "status": "ongoing" }
+        { "id": "conjunction_particle", "title": "حرف عطف", "status": "ready" },
+        { "id": "coordination", "title": "المعطوف في الصور البسيطة", "status": "ready" },
+        { "id": "coordinated_case_matching", "title": "مطابقة المعطوف للمعطوف عليه في الإعراب", "status": "ready" },
+        { "id": "lexical_emphasis", "title": "التوكيد اللفظي والمعنوي في الصور الشائعة", "status": "ongoing" },
+        { "id": "verbal_emphasis", "title": "التوكيد بالفعل أو المصدر في بعض المواضع", "status": "ongoing" },
+        { "id": "demonstrative_apposition", "title": "بدل اسم الإشارة", "status": "ongoing" },
+        { "id": "apposition", "title": "البدل عمومًا", "status": "ongoing" },
+        { "id": "multiple_dependents", "title": "تعدد التوابع المختلفة في الجملة الواحدة", "status": "ongoing" }
       ]
     },
     {
@@ -83,19 +116,22 @@
       "description": "أساليب إضافية موجودة لكن بدرجات نضج مختلفة.",
       "capabilities": [
         { "id": "vocative_particle", "title": "أداة النداء", "status": "ready" },
-        { "id": "vocative", "title": "النداء", "status": "ready" },
+        { "id": "vocative", "title": "المنادى", "status": "ready" },
         { "id": "exception_particle", "title": "أداة الاستثناء", "status": "ongoing" },
-        { "id": "exception", "title": "الاستثناء", "status": "ongoing" },
+        { "id": "exception", "title": "المستثنى", "status": "ongoing" },
         { "id": "specification", "title": "التمييز", "status": "ongoing" },
         { "id": "circumstantial", "title": "الحال", "status": "ready" }
       ]
     },
     {
-      "id": "limits",
+      "id": "known_limits",
       "title": "حدود معروفة",
-      "description": "ما زال التحليل فيها غير مكتمل أو يحتاج توسيعًا لاحقًا.",
+      "description": "تراكيب ما زالت غير مكتملة أو تحتاج توسيعًا لاحقًا.",
       "capabilities": [
-        { "id": "relative_and_subordinate_clauses", "title": "الجمل الموصولية والفعلية التابعة المعقدة", "status": "upcoming" },
+        { "id": "relative_clause_analysis", "title": "تحليل صلة الموصول كاملة", "status": "upcoming" },
+        { "id": "deep_nested_clauses", "title": "الجمل المتداخلة الطويلة", "status": "upcoming" },
+        { "id": "ambiguous_context_resolution", "title": "حل اللبس السياقي المتقدم", "status": "upcoming" },
+        { "id": "poetic_or_rare_structures", "title": "التراكيب الشعرية أو النادرة", "status": "unavailable" },
         { "id": "low_confidence_fallback", "title": "الكلمات أو التراكيب الخارجة عن القواعد التعليمية الحالية", "status": "unavailable" }
       ]
     }

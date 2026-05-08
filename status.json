@@ -36,6 +36,30 @@
       ]
     },
     {
+      "id": "attached_pronouns",
+      "title": "الضمائر المتصلة",
+      "description": "دعم واسع للضمائر المتصلة في الفعل والاسم وحرف الجر والظرف.",
+      "capabilities": [
+        { "id": "attached_subject_pronouns_past", "title": "ضمائر الرفع المتصلة بالفعل الماضي", "status": "ready" },
+        { "id": "ta_faail", "title": "تاء الفاعل", "status": "ready" },
+        { "id": "na_faailin", "title": "نا الفاعلين", "status": "ready" },
+        { "id": "waw_jamaah", "title": "واو الجماعة", "status": "ready" },
+        { "id": "alif_ithnayn", "title": "ألف الاثنين", "status": "ready" },
+        { "id": "noon_niswa", "title": "نون النسوة", "status": "ready" },
+        { "id": "imperative_attached_subjects", "title": "ضمائر الرفع المتصلة بفعل الأمر", "status": "ready" },
+        { "id": "attached_object_pronouns", "title": "ضمائر النصب المتصلة بالفعل", "status": "ready" },
+        { "id": "fronted_attached_object", "title": "ضمير متصل مفعول به مقدم", "status": "ready" },
+        { "id": "noon_wiqaya", "title": "نون الوقاية مع ياء المتكلم", "status": "ready" },
+        { "id": "attached_possessive_pronouns", "title": "ضمائر الجر المتصلة بالاسم", "status": "ready" },
+        { "id": "ya_mutakallim_possessive", "title": "ياء المتكلم مضافًا إليه", "status": "ready" },
+        { "id": "five_nouns_attached_pronoun", "title": "الأسماء الخمسة مع ضمير متصل", "status": "ready" },
+        { "id": "attached_preposition_pronoun", "title": "حرف جر + ضمير متصل", "status": "ready" },
+        { "id": "attached_adverb_pronoun", "title": "ظرف + ضمير متصل", "status": "ready" },
+        { "id": "attached_pronoun_in_object_idafa", "title": "مفعول به مضاف إلى ضمير", "status": "ready" },
+        { "id": "attached_pronoun_with_predicate_phrase", "title": "ضمير متصل داخل شبه جملة خبرًا", "status": "ready" }
+      ]
+    },
+    {
       "id": "demonstratives",
       "title": "أسماء الإشارة",
       "description": "دعم واسع لأسماء الإشارة في الرفع والنصب والجر ومع البدل والنعت والإضافة.",
@@ -63,11 +87,13 @@
         { "id": "present_verb_basic", "title": "الفعل المضارع في الصور المباشرة", "status": "ready" },
         { "id": "imperative_verb_basic", "title": "فعل الأمر في الصور المباشرة", "status": "ready" },
         { "id": "subject_doer", "title": "فاعل", "status": "ready" },
-        { "id": "attached_subject_forms", "title": "تاء الفاعل وألف الاثنين وواو الجماعة", "status": "ready" },
+        { "id": "attached_subject_forms", "title": "ضمائر الرفع المتصلة بالفعل", "status": "ready" },
         { "id": "hidden_subject", "title": "الفاعل الضمير المستتر في بعض المواضع", "status": "ready" },
         { "id": "object", "title": "مفعول به", "status": "ready" },
+        { "id": "attached_object_pronoun", "title": "ضمير متصل في موقع المفعول به", "status": "ready" },
         { "id": "detached_object_pronoun", "title": "ضمير منفصل في موقع المفعول به", "status": "ready" },
         { "id": "fronted_detached_object_pronoun", "title": "ضمير نصب منفصل مفعول به مقدم", "status": "ready" },
+        { "id": "fronted_attached_object_pronoun", "title": "ضمير نصب متصل مفعول به مقدم", "status": "ready" },
         { "id": "simple_verbal_clauses", "title": "الجمل الفعلية البسيطة", "status": "ready" },
         { "id": "complex_subordinate_clauses", "title": "الجمل التابعة والفعلية المعقدة", "status": "upcoming" }
       ]
@@ -82,6 +108,9 @@
         { "id": "idafa_chains", "title": "سلاسل الإضافة", "status": "ready" },
         { "id": "five_nouns_idafa", "title": "الأسماء الخمسة في الإضافة", "status": "ready" },
         { "id": "attached_pronoun_idafa", "title": "الإضافة إلى ضمير متصل", "status": "ready" },
+        { "id": "ya_mutakallim_idafa", "title": "الإضافة إلى ياء المتكلم", "status": "ready" },
+        { "id": "object_idafa_attached_pronoun", "title": "مفعول به مضاف إلى ضمير", "status": "ready" },
+        { "id": "five_nouns_with_attached_pronouns", "title": "الأسماء الخمسة مضافة إلى ضمير", "status": "ready" },
         { "id": "demonstrative_idafa", "title": "الإضافة إلى اسم إشارة مع بدل", "status": "ready" }
       ]
     },
@@ -110,6 +139,8 @@
         { "id": "attached_preposition_noun", "title": "حرف جر + اسم مجرور في كلمة واحدة", "status": "ready" },
         { "id": "attached_preposition_pronoun", "title": "حرف جر + ضمير", "status": "ready" },
         { "id": "attached_preposition_demonstrative", "title": "حرف جر + اسم إشارة", "status": "ready" },
+        { "id": "preposition_pronoun_predicate", "title": "حرف جر + ضمير واقع خبرًا", "status": "ready" },
+        { "id": "fronted_preposition_pronoun", "title": "حرف جر + ضمير خبر مقدم", "status": "ready" },
         { "id": "attached_to_verb", "title": "شبه الجملة متعلق بالفعل", "status": "ready" },
         { "id": "predicate_phrase", "title": "شبه الجملة في محل رفع خبر", "status": "ready" },
         { "id": "fronted_phrase", "title": "شبه الجملة خبر مقدم", "status": "ready" },
@@ -119,6 +150,8 @@
         { "id": "adverbial_predicate", "title": "الظرف الواقع خبرًا", "status": "ready" },
         { "id": "fronted_adverbial_predicate", "title": "الظرف خبرًا مقدمًا", "status": "ready" },
         { "id": "attached_locative_pronoun", "title": "ظرف + ضمير", "status": "ready" },
+        { "id": "adverb_pronoun_attached_to_verb", "title": "ظرف + ضمير متعلق بالفعل", "status": "ready" },
+        { "id": "adverb_pronoun_fronted_predicate", "title": "ظرف + ضمير خبر مقدم", "status": "ready" },
         { "id": "adverb_complement", "title": "مضاف إليه بعد الظرف", "status": "ready" },
         { "id": "adverb_demonstrative_complement", "title": "اسم إشارة مضاف إليه بعد الظرف", "status": "ready" }
       ]
@@ -183,17 +216,38 @@
     {
       "id": "unavailable_styles",
       "title": "غير مدعوم حاليًا",
-      "description": "أبواب أو أساليب لم تُبن لها قواعد تعليمية واضحة بعد.",
+      "description": "أبواب نحوية وأساليب عربية لم تُبن لها قواعد تعليمية واضحة بعد.",
       "capabilities": [
         { "id": "conditional_style", "title": "أسلوب الشرط", "status": "unavailable" },
         { "id": "interrogative_style", "title": "أسلوب الاستفهام", "status": "unavailable" },
         { "id": "negation_style", "title": "أسلوب النفي بأدواته", "status": "unavailable" },
         { "id": "oath_style", "title": "أسلوب القسم", "status": "unavailable" },
         { "id": "exclamation_style", "title": "أسلوب التعجب", "status": "unavailable" },
+        { "id": "praise_and_dispraise", "title": "أسلوب المدح والذم", "status": "unavailable" },
+        { "id": "temptation_and_warning", "title": "الإغراء والتحذير", "status": "unavailable" },
+        { "id": "specialization_style", "title": "الاختصاص", "status": "unavailable" },
+        { "id": "lamentation_and_call_for_help", "title": "الندبة والاستغاثة", "status": "unavailable" },
         { "id": "passive_voice", "title": "نائب الفاعل والمبني للمجهول", "status": "unavailable" },
+        { "id": "subjunctive_present", "title": "نصب الفعل المضارع بأدوات النصب", "status": "unavailable" },
+        { "id": "jussive_present", "title": "جزم الفعل المضارع بأدوات الجزم", "status": "unavailable" },
+        { "id": "five_verbs_full_inflection", "title": "الأفعال الخمسة تفصيليًا في النصب والجزم", "status": "unavailable" },
+        { "id": "weak_verb_full_inflection", "title": "إعراب الأفعال المعتلة تفصيليًا", "status": "unavailable" },
+        { "id": "transitive_two_objects", "title": "الأفعال المتعدية لمفعولين", "status": "unavailable" },
+        { "id": "mafool_mutlaq", "title": "المفعول المطلق", "status": "unavailable" },
+        { "id": "mafool_liajlih", "title": "المفعول لأجله", "status": "unavailable" },
+        { "id": "mafool_maah", "title": "المفعول معه", "status": "unavailable" },
+        { "id": "advanced_hal_sentences", "title": "الحال الجملة وشبه الجملة", "status": "unavailable" },
+        { "id": "advanced_tamyiz", "title": "تمييز العدد والنسبة والمقادير", "status": "unavailable" },
         { "id": "numbers_and_counted", "title": "العدد والمعدود تفصيليًا", "status": "unavailable" },
-        { "id": "attached_object_pronouns", "title": "ضمائر النصب المتصلة بالفعل تفصيليًا", "status": "unavailable" },
-        { "id": "pronoun_reference_resolution", "title": "تحديد مرجع الضمير سياقيًا", "status": "unavailable" }
+        { "id": "mamnoo_min_al_sarf", "title": "الممنوع من الصرف", "status": "unavailable" },
+        { "id": "maqsoor_manqoos_mamdood_full", "title": "الاسم المقصور والمنقوص والممدود تفصيليًا", "status": "unavailable" },
+        { "id": "relative_clause_full", "title": "صلة الموصول كاملة مع العائد", "status": "unavailable" },
+        { "id": "nominal_clause_as_roles", "title": "الجمل التي لها محل من الإعراب تفصيليًا", "status": "unavailable" },
+        { "id": "no_syntactic_position_clauses", "title": "الجمل التي لا محل لها من الإعراب", "status": "unavailable" },
+        { "id": "ellipsis_and_omission", "title": "الحذف والتقدير", "status": "unavailable" },
+        { "id": "advanced_particle_governance", "title": "عمل الأدوات والحروف المتقدمة", "status": "unavailable" },
+        { "id": "pronoun_reference_resolution", "title": "تحديد مرجع الضمير سياقيًا", "status": "unavailable" },
+        { "id": "full_i3rab_with_semantics", "title": "الإعراب الكامل المعتمد على المعنى والسياق", "status": "unavailable" }
       ]
     }
   ],

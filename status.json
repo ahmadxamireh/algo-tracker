@@ -14,9 +14,26 @@
         { "id": "advanced_predicate", "title": "خبر مقدم", "status": "ready" },
         { "id": "delayed_subject", "title": "مبتدأ مؤخر", "status": "ready" },
         { "id": "minor_nominal_sentence", "title": "جملة اسمية صغرى", "status": "ready" },
-        { "id": "demonstrative_subject", "title": "اسم الإشارة مبتدأ", "status": "ready" },
         { "id": "detached_pronoun_subject", "title": "الضمير المنفصل مبتدأ", "status": "ready" },
         { "id": "relative_pronoun", "title": "اسم موصول", "status": "ongoing" }
+      ]
+    },
+    {
+      "id": "demonstratives",
+      "title": "أسماء الإشارة",
+      "description": "دعم واسع لأسماء الإشارة في الرفع والنصب والجر ومع البدل والنعت والإضافة.",
+      "capabilities": [
+        { "id": "demonstrative_subject", "title": "اسم الإشارة مبتدأ", "status": "ready" },
+        { "id": "demonstrative_object", "title": "اسم الإشارة مفعول به", "status": "ready" },
+        { "id": "demonstrative_genitive_preposition", "title": "اسم الإشارة مجرور بحرف الجر", "status": "ready" },
+        { "id": "attached_preposition_demonstrative", "title": "حرف جر متصل باسم الإشارة", "status": "ready" },
+        { "id": "demonstrative_predicate", "title": "اسم الإشارة خبر المبتدأ", "status": "ready" },
+        { "id": "demonstrative_mudaf_ilayh", "title": "اسم الإشارة مضاف إليه", "status": "ready" },
+        { "id": "demonstrative_apposition", "title": "البدل بعد اسم الإشارة", "status": "ready" },
+        { "id": "demonstrative_with_adjective", "title": "اسم الإشارة مع نعت بعد البدل", "status": "ready" },
+        { "id": "demonstrative_with_idafa", "title": "اسم الإشارة مع تركيب إضافة", "status": "ready" },
+        { "id": "demonstrative_fronted_phrase", "title": "اسم الإشارة داخل شبه جملة مقدمة", "status": "ready" },
+        { "id": "near_far_forms", "title": "القريب والبعيد للمفرد والمثنى والجمع", "status": "ready" }
       ]
     },
     {
@@ -26,6 +43,8 @@
       "capabilities": [
         { "id": "verb", "title": "فعل", "status": "ready" },
         { "id": "past_verb_forms", "title": "الفعل الماضي وصيغ اتصاله الشائعة", "status": "ready" },
+        { "id": "present_verb_basic", "title": "الفعل المضارع في الصور المباشرة", "status": "ready" },
+        { "id": "imperative_verb_basic", "title": "فعل الأمر في الصور المباشرة", "status": "ready" },
         { "id": "subject_doer", "title": "فاعل", "status": "ready" },
         { "id": "attached_subject_forms", "title": "تاء الفاعل وألف الاثنين وواو الجماعة", "status": "ready" },
         { "id": "hidden_subject", "title": "الفاعل الضمير المستتر في بعض المواضع", "status": "ready" },
@@ -44,7 +63,8 @@
         { "id": "mudaf_ilayh", "title": "مضاف إليه مجرور", "status": "ready" },
         { "id": "idafa_chains", "title": "سلاسل الإضافة", "status": "ready" },
         { "id": "five_nouns_idafa", "title": "الأسماء الخمسة في الإضافة", "status": "ready" },
-        { "id": "attached_pronoun_idafa", "title": "الإضافة إلى ضمير متصل", "status": "ready" }
+        { "id": "attached_pronoun_idafa", "title": "الإضافة إلى ضمير متصل", "status": "ready" },
+        { "id": "demonstrative_idafa", "title": "الإضافة إلى اسم إشارة مع بدل", "status": "ready" }
       ]
     },
     {
@@ -59,6 +79,7 @@
         { "id": "sound_masculine_plural_adjective", "title": "نعت جمع المذكر السالم", "status": "ready" },
         { "id": "sound_feminine_plural_adjective", "title": "نعت جمع المؤنث السالم", "status": "ready" },
         { "id": "adjective_after_idafa", "title": "النعت بعد المضاف إليه", "status": "ready" },
+        { "id": "adjective_after_demonstrative_apposition", "title": "النعت بعد بدل اسم الإشارة", "status": "ready" },
         { "id": "multiple_adjectives", "title": "تعدد النعوت", "status": "ready" }
       ]
     },
@@ -70,15 +91,18 @@
         { "id": "prepositional_phrase", "title": "جار ومجرور", "status": "ready" },
         { "id": "attached_preposition_noun", "title": "حرف جر + اسم مجرور في كلمة واحدة", "status": "ready" },
         { "id": "attached_preposition_pronoun", "title": "حرف جر + ضمير", "status": "ready" },
+        { "id": "attached_preposition_demonstrative", "title": "حرف جر + اسم إشارة", "status": "ready" },
         { "id": "attached_to_verb", "title": "شبه الجملة متعلق بالفعل", "status": "ready" },
         { "id": "predicate_phrase", "title": "شبه الجملة في محل رفع خبر", "status": "ready" },
         { "id": "fronted_phrase", "title": "شبه الجملة خبر مقدم", "status": "ready" },
+        { "id": "fronted_demonstrative_phrase", "title": "شبه جملة مقدمة تتضمن اسم إشارة وبدلًا", "status": "ready" },
         { "id": "time_adverb", "title": "ظرف زمان", "status": "ready" },
         { "id": "place_adverb", "title": "ظرف مكان", "status": "ready" },
         { "id": "adverbial_predicate", "title": "الظرف الواقع خبرًا", "status": "ready" },
         { "id": "fronted_adverbial_predicate", "title": "الظرف خبرًا مقدمًا", "status": "ready" },
         { "id": "attached_locative_pronoun", "title": "ظرف + ضمير", "status": "ready" },
-        { "id": "adverb_complement", "title": "مضاف إليه بعد الظرف", "status": "ready" }
+        { "id": "adverb_complement", "title": "مضاف إليه بعد الظرف", "status": "ready" },
+        { "id": "adverb_demonstrative_complement", "title": "اسم إشارة مضاف إليه بعد الظرف", "status": "ready" }
       ]
     },
     {
@@ -103,10 +127,10 @@
         { "id": "conjunction_particle", "title": "حرف عطف", "status": "ready" },
         { "id": "coordination", "title": "المعطوف في الصور البسيطة", "status": "ready" },
         { "id": "coordinated_case_matching", "title": "مطابقة المعطوف للمعطوف عليه في الإعراب", "status": "ready" },
+        { "id": "demonstrative_apposition", "title": "بدل اسم الإشارة", "status": "ready" },
         { "id": "lexical_emphasis", "title": "التوكيد اللفظي والمعنوي في الصور الشائعة", "status": "ongoing" },
         { "id": "verbal_emphasis", "title": "التوكيد بالفعل أو المصدر في بعض المواضع", "status": "ongoing" },
-        { "id": "demonstrative_apposition", "title": "بدل اسم الإشارة", "status": "ongoing" },
-        { "id": "apposition", "title": "البدل عمومًا", "status": "ongoing" },
+        { "id": "general_apposition", "title": "البدل غير المرتبط باسم الإشارة", "status": "ongoing" },
         { "id": "multiple_dependents", "title": "تعدد التوابع المختلفة في الجملة الواحدة", "status": "ongoing" }
       ]
     },
@@ -133,6 +157,20 @@
         { "id": "ambiguous_context_resolution", "title": "حل اللبس السياقي المتقدم", "status": "upcoming" },
         { "id": "poetic_or_rare_structures", "title": "التراكيب الشعرية أو النادرة", "status": "unavailable" },
         { "id": "low_confidence_fallback", "title": "الكلمات أو التراكيب الخارجة عن القواعد التعليمية الحالية", "status": "unavailable" }
+      ]
+    },
+    {
+      "id": "unavailable_styles",
+      "title": "غير مدعوم حاليًا",
+      "description": "أبواب أو أساليب لم تُبن لها قواعد تعليمية واضحة بعد.",
+      "capabilities": [
+        { "id": "conditional_style", "title": "أسلوب الشرط", "status": "unavailable" },
+        { "id": "interrogative_style", "title": "أسلوب الاستفهام", "status": "unavailable" },
+        { "id": "negation_style", "title": "أسلوب النفي بأدواته", "status": "unavailable" },
+        { "id": "oath_style", "title": "أسلوب القسم", "status": "unavailable" },
+        { "id": "exclamation_style", "title": "أسلوب التعجب", "status": "unavailable" },
+        { "id": "passive_voice", "title": "نائب الفاعل والمبني للمجهول", "status": "unavailable" },
+        { "id": "numbers_and_counted", "title": "العدد والمعدود تفصيليًا", "status": "unavailable" }
       ]
     }
   ],

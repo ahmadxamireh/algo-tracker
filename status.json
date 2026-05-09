@@ -158,7 +158,7 @@
     },
     {
       "id": "nawasikh",
-      "title": "الناسخات",
+      "title": "النواسخ",
       "description": "دعم متفاوت للناسخات؛ كان وأخواتها أكثر نضجًا من إن وأخواتها.",
       "capabilities": [
         { "id": "kana_sisters", "title": "كان وأخواتها", "status": "ready" },
